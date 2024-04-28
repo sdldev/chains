@@ -1,0 +1,34 @@
+{
+    "repository": {
+        "url": "https://github.com/cosmos/chain-registry",
+        "branch": "master",
+        "commit": "13dd2e549321ef1936794a79b53300130f8c8ab2",
+        "timestamp": 1714325407
+    },
+    "chains": [
+        {
+            "chain_name": "crossfi",
+            "coingecko": "",
+            "api": [
+                {"provider": "zknodes", "address": "https://crossfi-testnet-api.zknodes.org"}
+            ],
+            "rpc": [
+                {"provider": "zknodes", "address": "https://crossfi-testnet-rpc.zknodes.org"}
+            ],
+            "snapshot_provider": "",
+            "sdk_version": "0.47.4",
+            "coin_type": "60",
+            "min_tx_fee": "55000",
+            "addr_prefix": "mx",
+            "logo": "/logos/crossfi.webp",
+            "assets": [{
+                "base": "mpx",
+                "symbol": "PX",
+                "exponent": "18", 
+                "coingecko_id": "",
+                "logo": "/logos/crossfi.webp"
+            }]
+        }
+        
+    ]
+}
